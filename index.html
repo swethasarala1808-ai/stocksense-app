@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>StockSense Planner</title>
+<style>
+:root{--bg:#0a0a0f;--card:#16161f;--bd:#2a2a3a;--ac:#00e5a0;--mu:#8b8ba7;--wr:#ff6b6b;--tx:#f0f0f8}
+*{box-sizing:border-box}body{margin:auto;background:var(--bg);color:var(--tx);font:14px system-ui,sans-serif;padding:16px;max-width:560px}
+h1{color:var(--ac);font-size:22px;margin:4px 0}h2{font-size:15px;margin:0 0 6px}.sub{color:var(--mu);font-size:12px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px;margin:12px 0}
+label{display:block;color:var(--mu);font-size:11px;text-transform:uppercase;margin:10px 0 4px}
+input[type=number]{width:100%;background:#111118;border:1px solid var(--bd);border-radius:10px;color:var(--tx);font-size:18px;padding:10px}
+input[type=range]{width:100%}.row{display:flex;justify-content:space-between;gap:8px;padding:8px 0;border-top:1px solid var(--bd)}
+.t{font-weight:700}.m{color:var(--mu);font-size:12px}.g{color:var(--ac)}.r{color:var(--wr)}.w{font-size:12px;color:#ffb74d;line-height:1.5;margin-top:6px}
+</style></head><body>
+<h1>StockSense Planner</h1><div class="sub" id="status">Loading latest scan…</div>
+<div class="card">
+<label>Daily amount (₹)</label><input type="number" id="d" value="200" inputmode="numeric">
+<label>Weekly amount (₹)</label><input type="number" id="w" value="300" inputmode="numeric">
+<label>Monthly amount (₹)</label><input type="number" id="m" value="2000" inputmode="numeric">
+<label>Monthly split: <span id="pl"></span></label><input type="range" id="p" min="0" max="100" step="10" value="50">
+</div>
+<div id="out"></div>
+<div class="sub">Screening aid, not financial advice. Prices come from Yahoo Finance and are delayed; the scan refreshes hourly in market hours. Always confirm price and charges in Groww. You can lose money.</div>
+<script>
+const FEE=40; // assumed round-trip charges in ₹ for one buy+sell; check Groww's real charges
+let D=null;const $=i=>document.getElementById(i);
+const inr=n=>'₹'+Number(n).toLocaleString('en-IN',{maximumFractionDigits:2});
+function rows(list,amt){
+  if(!list.length)return '<div class="row"><span class="m">No scanned stock is cheap enough for this amount. Save it and add to the next day/week.</span></div>';
+  return list.map(p=>{const q=Math.floor(amt/p.price);return `<div class="row"><div><div class="t">${p.ticker} <span class="g">score ${p.score}</span></div>
+  <div class="m">${p.reasons.slice(0,2).join(' · ')}</div></div><div style="text-align:right"><div class="t">${q} × ${inr(p.price)}</div>
+  <div class="m">cost ${inr(q*p.price)}<br>target ${inr(p.target)} · stop ${inr(p.stoploss)}</div></div></div>`}).join('');}
+function pick(amt,used){if(!D||amt<=0)return[];const r=D.picks.filter(p=>p.price<=amt&&!used.has(p.ticker)).slice(0,3);r.forEach(p=>used.add(p.ticker));return r;}
+function render(){
+  const d=+$('d').value||0,w=+$('w').value||0,m=+$('m').value||0,pc=+$('p').value,used=new Set();
+  const fund=Math.round(m*pc/100),bond=m-fund;$('pl').textContent=`${pc}% fund / ${100-pc}% bond`;
+  let h='';
+  if(d>0)h+=`<div class="card"><h2>Daily · ${inr(d)}</h2>${rows(pick(d,used),d)}
+  <div class="w">Charges of about ${inr(FEE)} per buy+sell mean a ${inr(d)} trade must rise ~${(FEE/d*100).toFixed(0)}% just to break even. For small amounts, holding for days beats same-day trading.</div></div>`;
+  if(w>0)h+=`<div class="card"><h2>Weekly · ${inr(w)}</h2>${rows(pick(w,used),w)}
+  <div class="w">Hold about 1–2 weeks. Sell at the target, or exit at the stop-loss. The Telegram watcher can alert you.</div></div>`;
+  if(m>0)h+=`<div class="card"><h2>Monthly · ${inr(m)}</h2>
+  <div class="row"><div><div class="t">Mutual fund · ${inr(fund)}</div><div class="m">A low-cost Nifty 50 index fund (direct plan) by monthly SIP is a simple default. Pick the fund and check its expense ratio in Groww.</div></div></div>
+  <div class="row"><div><div class="t">Bond · ${inr(bond)}</div><div class="m">${bond<10000?'Most bonds and government securities need about ₹10,000 or more, so this is too small to buy directly. Put it in a gilt or short-duration debt fund SIP now, or save up to the minimum and buy via Groww or RBI Retail Direct. Check current rates and minimums.':'Look at government securities (RBI Retail Direct) or high-rated bonds on Groww. Compare yield and rating, and check the minimum lot.'}</div></div></div></div>`;
+  $('out').innerHTML=h;}
+['d','w','m','p'].forEach(i=>$(i).addEventListener('input',render));
+fetch('data.json').then(r=>r.json()).then(j=>{D=j;$('status').textContent='Scan updated: '+j.updated;render();})
+.catch(()=>{$('status').textContent='Could not load data.json. Run the scan workflow first.';render();});
+</script></body></html>
