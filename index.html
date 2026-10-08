@@ -17,17 +17,18 @@ input[type=range]{width:100%}.row{display:flex;justify-content:space-between;gap
 <label>Monthly split: <span id="pl"></span></label><input type="range" id="p" min="0" max="100" step="10" value="50">
 </div>
 <div id="out"></div>
+<div class="card"><h2>After you buy in Groww</h2><div class="m">Send this to your Telegram bot @swetha_stocksense_bot so it watches the stock for you, even when this page is closed:<br><b>/buy ITC 265.7 1</b> (ticker, your buy price, quantity)<br>You get a message at the target or stop-loss. Then sell in Groww and send <b>/sold ITC</b>. Send /list to see your holdings.</div></div>
 <div class="sub">Screening aid, not financial advice. Prices come from Yahoo Finance and are delayed; the scan refreshes hourly in market hours. Always confirm price and charges in Groww. You can lose money.</div>
 <script>
 const FEE=40; // assumed round-trip charges in ₹ for one buy+sell; check Groww's real charges
 let D=null;const $=i=>document.getElementById(i);
 const inr=n=>'₹'+Number(n).toLocaleString('en-IN',{maximumFractionDigits:2});
 function rows(list,amt){
-  if(!list.length)return '<div class="row"><span class="m">No scanned stock is cheap enough for this amount. Save it and add to the next day/week.</span></div>';
+  if(!list.length)return '<div class="row"><span class="m">No stock with a decent score is affordable at this amount today. Skipping is fine: keep the money and add it to the next day or week.</span></div>';
   return list.map(p=>{const q=Math.floor(amt/p.price);return `<div class="row"><div><div class="t">${p.ticker} <span class="g">score ${p.score}</span></div>
   <div class="m">${p.reasons.slice(0,2).join(' · ')}</div></div><div style="text-align:right"><div class="t">${q} × ${inr(p.price)}</div>
   <div class="m">cost ${inr(q*p.price)}<br>target ${inr(p.target)} · stop ${inr(p.stoploss)}</div></div></div>`}).join('');}
-function pick(amt,used){if(!D||amt<=0)return[];const r=D.picks.filter(p=>p.price<=amt&&!used.has(p.ticker)).slice(0,3);r.forEach(p=>used.add(p.ticker));return r;}
+function pick(amt,used){if(!D||amt<=0)return[];const r=D.picks.filter(p=>p.score>=40&&p.price<=amt&&!used.has(p.ticker)).slice(0,3);r.forEach(p=>used.add(p.ticker));return r;}
 function render(){
   const d=+$('d').value||0,w=+$('w').value||0,m=+$('m').value||0,pc=+$('p').value,used=new Set();
   const fund=Math.round(m*pc/100),bond=m-fund;$('pl').textContent=`${pc}% fund / ${100-pc}% bond`;
