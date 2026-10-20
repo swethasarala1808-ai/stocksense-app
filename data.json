@@ -1,5 +1,5 @@
 {
- "updated": "19 Oct 2026, 03:42 PM IST",
+ "updated": "20 Oct 2026, 02:14 PM IST",
  "picks": [
   {
    "ticker": "BANKBARODA",
@@ -285,18 +285,6 @@
    "stoploss": 252.01,
    "reasons": [
     "RSI 46.6: healthy momentum, not overbought"
-   ]
-  },
-  {
-   "ticker": "LT",
-   "price": 3661.9,
-   "score": 20,
-   "rsi": 40.6,
-   "vol_ratio": 1.34,
-   "target": 3878.49,
-   "stoploss": 3553.6,
-   "reasons": [
-    "Volume 1.3x the 20-day average"
    ]
   },
   {
