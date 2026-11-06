@@ -1,5 +1,5 @@
 {
- "updated": "06 Nov 2026, 04:43 PM IST",
+ "updated": "06 Nov 2026, 05:53 PM IST",
  "picks": [
   {
    "ticker": "SBIN",
@@ -382,6 +382,21 @@
     "RSI 75.1: overbought, risk of pullback",
     "MACD histogram positive and rising",
     "Volume 2.0x the 20-day average"
+   ]
+  },
+  {
+   "ticker": "NHPC",
+   "price": 82.08,
+   "score": 50,
+   "rsi": 71.1,
+   "vol_ratio": 1.74,
+   "target": 88.34,
+   "stoploss": 78.95,
+   "reasons": [
+    "Price 82.08 above 50-day average 75.04 (uptrend)",
+    "RSI 71.1: overbought, risk of pullback",
+    "MACD histogram positive and rising",
+    "Volume 1.7x the 20-day average"
    ]
   },
   {
