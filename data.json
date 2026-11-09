@@ -1,549 +1,528 @@
 {
- "updated": "06 Nov 2026, 05:53 PM IST",
+ "updated": "09 Nov 2026, 05:23 PM IST",
  "picks": [
   {
-   "ticker": "SBIN",
-   "price": 1018.5,
-   "score": 85,
-   "rsi": 63.2,
-   "vol_ratio": 1.43,
-   "target": 1083.06,
-   "stoploss": 986.22,
-   "reasons": [
-    "Price 1018.50 above 50-day average 984.17 (uptrend)",
-    "RSI 63.2: healthy momentum, not overbought",
-    "MACD histogram positive and rising",
-    "Volume 1.4x the 20-day average"
-   ]
-  },
-  {
-   "ticker": "NTPC",
-   "price": 323.45,
-   "score": 85,
-   "rsi": 60.7,
-   "vol_ratio": 1.29,
-   "target": 347.01,
-   "stoploss": 311.67,
-   "reasons": [
-    "Price 323.45 above 50-day average 317.33 (uptrend)",
-    "RSI 60.7: healthy momentum, not overbought",
-    "MACD histogram positive and rising",
-    "Volume 1.3x the 20-day average"
-   ]
-  },
-  {
    "ticker": "TATASTEEL",
-   "price": 186.3,
+   "price": 184.85,
    "score": 85,
-   "rsi": 64.1,
-   "vol_ratio": 1.53,
-   "target": 200.87,
-   "stoploss": 179.02,
+   "rsi": 61.4,
+   "vol_ratio": 2.23,
+   "target": 200.45,
+   "stoploss": 177.05,
    "reasons": [
-    "Price 186.30 above 50-day average 180.29 (uptrend)",
-    "RSI 64.1: healthy momentum, not overbought",
+    "Price 184.85 above 50-day average 180.22 (uptrend)",
+    "RSI 61.4: healthy momentum, not overbought",
     "MACD histogram positive and rising",
-    "Volume 1.5x the 20-day average"
+    "Volume 2.2x the 20-day average"
    ]
   },
   {
    "ticker": "CANBK",
-   "price": 122.93,
+   "price": 128.1,
    "score": 85,
-   "rsi": 55.9,
-   "vol_ratio": 1.57,
-   "target": 132.18,
-   "stoploss": 118.3,
+   "rsi": 63.9,
+   "vol_ratio": 1.46,
+   "target": 137.82,
+   "stoploss": 123.24,
    "reasons": [
-    "Price 122.93 above 50-day average 121.88 (uptrend)",
-    "RSI 55.9: healthy momentum, not overbought",
-    "MACD histogram positive and rising",
-    "Volume 1.6x the 20-day average"
-   ]
-  },
-  {
-   "ticker": "INFY",
-   "price": 1181.4,
-   "score": 80,
-   "rsi": 64.2,
-   "vol_ratio": 0.91,
-   "target": 1300.9,
-   "stoploss": 1121.65,
-   "reasons": [
-    "Price 1181.40 above 50-day average 1065.81 (uptrend)",
-    "20-day average is above 50-day average",
-    "RSI 64.2: healthy momentum, not overbought",
-    "MACD histogram positive and rising"
-   ]
-  },
-  {
-   "ticker": "BANKBARODA",
-   "price": 250.31,
-   "score": 80,
-   "rsi": 65.0,
-   "vol_ratio": 0.98,
-   "target": 267.41,
-   "stoploss": 241.76,
-   "reasons": [
-    "Price 250.31 above 50-day average 236.34 (uptrend)",
-    "20-day average is above 50-day average",
-    "RSI 65.0: healthy momentum, not overbought",
-    "MACD histogram positive and rising"
-   ]
-  },
-  {
-   "ticker": "HAL",
-   "price": 4980.0,
-   "score": 80,
-   "rsi": 56.7,
-   "vol_ratio": 1.6,
-   "target": 5356.54,
-   "stoploss": 4791.73,
-   "reasons": [
-    "Price 4980.00 above 50-day average 4829.77 (uptrend)",
-    "20-day average is above 50-day average",
-    "RSI 56.7: healthy momentum, not overbought",
-    "Volume 1.6x the 20-day average"
-   ]
-  },
-  {
-   "ticker": "ICICIBANK",
-   "price": 1571.2,
-   "score": 65,
-   "rsi": 79.7,
-   "vol_ratio": 2.95,
-   "target": 1670.21,
-   "stoploss": 1521.7,
-   "reasons": [
-    "Price 1571.20 above 50-day average 1382.70 (uptrend)",
-    "20-day average is above 50-day average",
-    "RSI 79.7: overbought, risk of pullback",
-    "MACD histogram positive and rising",
-    "Volume 3.0x the 20-day average"
-   ]
-  },
-  {
-   "ticker": "BHARTIARTL",
-   "price": 2107.2,
-   "score": 65,
-   "rsi": 75.5,
-   "vol_ratio": 1.76,
-   "target": 2242.82,
-   "stoploss": 2039.39,
-   "reasons": [
-    "Price 2107.20 above 50-day average 1868.15 (uptrend)",
-    "20-day average is above 50-day average",
-    "RSI 75.5: overbought, risk of pullback",
-    "MACD histogram positive and rising",
-    "Volume 1.8x the 20-day average"
-   ]
-  },
-  {
-   "ticker": "AXISBANK",
-   "price": 1322.9,
-   "score": 65,
-   "rsi": 68.6,
-   "vol_ratio": 1.32,
-   "target": 1410.06,
-   "stoploss": 1279.32,
-   "reasons": [
-    "Price 1322.90 above 50-day average 1243.21 (uptrend)",
-    "MACD histogram positive and rising",
-    "Volume 1.3x the 20-day average"
-   ]
-  },
-  {
-   "ticker": "POWERGRID",
-   "price": 259.9,
-   "score": 65,
-   "rsi": 56.7,
-   "vol_ratio": 1.68,
-   "target": 279.2,
-   "stoploss": 250.25,
-   "reasons": [
-    "Price 259.90 above 50-day average 256.90 (uptrend)",
-    "RSI 56.7: healthy momentum, not overbought",
-    "Volume 1.7x the 20-day average"
-   ]
-  },
-  {
-   "ticker": "ONGC",
-   "price": 231.76,
-   "score": 65,
-   "rsi": 54.3,
-   "vol_ratio": 2.87,
-   "target": 246.17,
-   "stoploss": 224.55,
-   "reasons": [
-    "Price 231.76 above 50-day average 229.94 (uptrend)",
-    "RSI 54.3: healthy momentum, not overbought",
-    "Volume 2.9x the 20-day average"
-   ]
-  },
-  {
-   "ticker": "ULTRACEMCO",
-   "price": 12450.0,
-   "score": 65,
-   "rsi": 76.6,
-   "vol_ratio": 1.72,
-   "target": 13284.27,
-   "stoploss": 12032.87,
-   "reasons": [
-    "Price 12450.00 above 50-day average 11102.60 (uptrend)",
-    "20-day average is above 50-day average",
-    "RSI 76.6: overbought, risk of pullback",
-    "MACD histogram positive and rising",
-    "Volume 1.7x the 20-day average"
-   ]
-  },
-  {
-   "ticker": "IRFC",
-   "price": 80.43,
-   "score": 65,
-   "rsi": 61.1,
-   "vol_ratio": 0.75,
-   "target": 86.92,
-   "stoploss": 77.19,
-   "reasons": [
-    "Price 80.43 above 50-day average 78.20 (uptrend)",
-    "RSI 61.1: healthy momentum, not overbought",
-    "MACD histogram positive and rising"
-   ]
-  },
-  {
-   "ticker": "BEL",
-   "price": 396.0,
-   "score": 65,
-   "rsi": 62.3,
-   "vol_ratio": 0.79,
-   "target": 423.6,
-   "stoploss": 382.2,
-   "reasons": [
-    "Price 396.00 above 50-day average 388.39 (uptrend)",
-    "RSI 62.3: healthy momentum, not overbought",
-    "MACD histogram positive and rising"
-   ]
-  },
-  {
-   "ticker": "TCS",
-   "price": 2498.5,
-   "score": 60,
-   "rsi": 63.2,
-   "vol_ratio": 0.8,
-   "target": 2713.23,
-   "stoploss": 2391.14,
-   "reasons": [
-    "Price 2498.50 above 50-day average 2275.70 (uptrend)",
-    "20-day average is above 50-day average",
-    "RSI 63.2: healthy momentum, not overbought"
-   ]
-  },
-  {
-   "ticker": "ITC",
-   "price": 283.15,
-   "score": 60,
-   "rsi": 68.8,
-   "vol_ratio": 0.78,
-   "target": 303.01,
-   "stoploss": 273.22,
-   "reasons": [
-    "Price 283.15 above 50-day average 264.60 (uptrend)",
-    "20-day average is above 50-day average",
-    "MACD histogram positive and rising"
-   ]
-  },
-  {
-   "ticker": "ADANIPORTS",
-   "price": 1936.6,
-   "score": 60,
-   "rsi": 67.5,
-   "vol_ratio": 1.06,
-   "target": 2093.0,
-   "stoploss": 1858.4,
-   "reasons": [
-    "Price 1936.60 above 50-day average 1763.25 (uptrend)",
-    "20-day average is above 50-day average",
-    "MACD histogram positive and rising"
-   ]
-  },
-  {
-   "ticker": "PNB",
-   "price": 126.55,
-   "score": 60,
-   "rsi": 65.6,
-   "vol_ratio": 0.97,
-   "target": 135.77,
-   "stoploss": 121.94,
-   "reasons": [
-    "Price 126.55 above 50-day average 117.53 (uptrend)",
-    "20-day average is above 50-day average",
-    "MACD histogram positive and rising"
-   ]
-  },
-  {
-   "ticker": "IDFCFIRSTB",
-   "price": 77.33,
-   "score": 60,
-   "rsi": 51.4,
-   "vol_ratio": 1.31,
-   "target": 83.5,
-   "stoploss": 74.24,
-   "reasons": [
-    "RSI 51.4: healthy momentum, not overbought",
-    "MACD histogram positive and rising",
-    "Volume 1.3x the 20-day average"
-   ]
-  },
-  {
-   "ticker": "HDFCBANK",
-   "price": 788.25,
-   "score": 50,
-   "rsi": 73.9,
-   "vol_ratio": 2.3,
-   "target": 840.78,
-   "stoploss": 761.98,
-   "reasons": [
-    "Price 788.25 above 50-day average 713.70 (uptrend)",
-    "RSI 73.9: overbought, risk of pullback",
-    "MACD histogram positive and rising",
-    "Volume 2.3x the 20-day average"
-   ]
-  },
-  {
-   "ticker": "LT",
-   "price": 4117.7,
-   "score": 50,
-   "rsi": 75.1,
-   "vol_ratio": 1.53,
-   "target": 4374.28,
-   "stoploss": 3989.41,
-   "reasons": [
-    "Price 4117.70 above 50-day average 3835.71 (uptrend)",
-    "RSI 75.1: overbought, risk of pullback",
+    "Price 128.10 above 50-day average 121.85 (uptrend)",
+    "RSI 63.9: healthy momentum, not overbought",
     "MACD histogram positive and rising",
     "Volume 1.5x the 20-day average"
    ]
   },
   {
-   "ticker": "MARUTI",
-   "price": 12750.0,
-   "score": 50,
-   "rsi": 71.2,
-   "vol_ratio": 1.87,
-   "target": 13615.47,
-   "stoploss": 12317.27,
+   "ticker": "AXISBANK",
+   "price": 1310.7,
+   "score": 80,
+   "rsi": 64.9,
+   "vol_ratio": 0.69,
+   "target": 1397.89,
+   "stoploss": 1267.1,
    "reasons": [
-    "Price 12750.00 above 50-day average 12039.16 (uptrend)",
-    "RSI 71.2: overbought, risk of pullback",
+    "Price 1310.70 above 50-day average 1244.33 (uptrend)",
+    "20-day average is above 50-day average",
+    "RSI 64.9: healthy momentum, not overbought",
+    "MACD histogram positive and rising"
+   ]
+  },
+  {
+   "ticker": "NHPC",
+   "price": 80.39,
+   "score": 80,
+   "rsi": 63.9,
+   "vol_ratio": 1.25,
+   "target": 86.82,
+   "stoploss": 77.18,
+   "reasons": [
+    "Price 80.39 above 50-day average 75.13 (uptrend)",
+    "20-day average is above 50-day average",
+    "RSI 63.9: healthy momentum, not overbought",
+    "Volume 1.2x the 20-day average"
+   ]
+  },
+  {
+   "ticker": "HDFCBANK",
+   "price": 798.15,
+   "score": 65,
+   "rsi": 75.6,
+   "vol_ratio": 1.89,
+   "target": 850.35,
+   "stoploss": 772.05,
+   "reasons": [
+    "Price 798.15 above 50-day average 715.12 (uptrend)",
+    "20-day average is above 50-day average",
+    "RSI 75.6: overbought, risk of pullback",
     "MACD histogram positive and rising",
     "Volume 1.9x the 20-day average"
    ]
   },
   {
-   "ticker": "M&M",
-   "price": 3287.2,
-   "score": 50,
-   "rsi": 75.6,
-   "vol_ratio": 3.26,
-   "target": 3520.33,
-   "stoploss": 3170.63,
+   "ticker": "ICICIBANK",
+   "price": 1589.0,
+   "score": 65,
+   "rsi": 80.9,
+   "vol_ratio": 1.82,
+   "target": 1685.39,
+   "stoploss": 1540.8,
    "reasons": [
-    "Price 3287.20 above 50-day average 3004.95 (uptrend)",
-    "RSI 75.6: overbought, risk of pullback",
+    "Price 1589.00 above 50-day average 1385.88 (uptrend)",
+    "20-day average is above 50-day average",
+    "RSI 80.9: overbought, risk of pullback",
     "MACD histogram positive and rising",
-    "Volume 3.3x the 20-day average"
+    "Volume 1.8x the 20-day average"
    ]
   },
   {
-   "ticker": "TITAN",
-   "price": 5000.0,
-   "score": 50,
-   "rsi": 73.9,
-   "vol_ratio": 5.55,
-   "target": 5367.42,
-   "stoploss": 4816.29,
+   "ticker": "SBIN",
+   "price": 1042.0,
+   "score": 65,
+   "rsi": 67.9,
+   "vol_ratio": 2.1,
+   "target": 1108.4,
+   "stoploss": 1008.8,
    "reasons": [
-    "Price 5000.00 above 50-day average 4711.76 (uptrend)",
-    "RSI 73.9: overbought, risk of pullback",
+    "Price 1042.00 above 50-day average 983.97 (uptrend)",
     "MACD histogram positive and rising",
-    "Volume 5.6x the 20-day average"
+    "Volume 2.1x the 20-day average"
    ]
   },
   {
-   "ticker": "IOC",
-   "price": 146.25,
-   "score": 50,
-   "rsi": 75.1,
+   "ticker": "NTPC",
+   "price": 328.75,
+   "score": 65,
+   "rsi": 64.6,
+   "vol_ratio": 1.01,
+   "target": 352.05,
+   "stoploss": 317.1,
+   "reasons": [
+    "Price 328.75 above 50-day average 317.35 (uptrend)",
+    "RSI 64.6: healthy momentum, not overbought",
+    "MACD histogram positive and rising"
+   ]
+  },
+  {
+   "ticker": "POWERGRID",
+   "price": 257.95,
+   "score": 65,
+   "rsi": 53.9,
+   "vol_ratio": 1.27,
+   "target": 276.94,
+   "stoploss": 248.45,
+   "reasons": [
+    "Price 257.95 above 50-day average 256.82 (uptrend)",
+    "RSI 53.9: healthy momentum, not overbought",
+    "Volume 1.3x the 20-day average"
+   ]
+  },
+  {
+   "ticker": "ONGC",
+   "price": 233.5,
+   "score": 65,
+   "rsi": 56.5,
+   "vol_ratio": 1.88,
+   "target": 247.96,
+   "stoploss": 226.27,
+   "reasons": [
+    "Price 233.50 above 50-day average 229.99 (uptrend)",
+    "RSI 56.5: healthy momentum, not overbought",
+    "Volume 1.9x the 20-day average"
+   ]
+  },
+  {
+   "ticker": "BANKBARODA",
+   "price": 260.01,
+   "score": 65,
+   "rsi": 72.0,
+   "vol_ratio": 2.12,
+   "target": 278.41,
+   "stoploss": 250.81,
+   "reasons": [
+    "Price 260.01 above 50-day average 236.69 (uptrend)",
+    "20-day average is above 50-day average",
+    "RSI 72.0: overbought, risk of pullback",
+    "MACD histogram positive and rising",
+    "Volume 2.1x the 20-day average"
+   ]
+  },
+  {
+   "ticker": "PNB",
+   "price": 132.17,
+   "score": 65,
+   "rsi": 73.0,
+   "vol_ratio": 2.2,
+   "target": 142.13,
+   "stoploss": 127.19,
+   "reasons": [
+    "Price 132.17 above 50-day average 117.84 (uptrend)",
+    "20-day average is above 50-day average",
+    "RSI 73.0: overbought, risk of pullback",
+    "MACD histogram positive and rising",
+    "Volume 2.2x the 20-day average"
+   ]
+  },
+  {
+   "ticker": "IRFC",
+   "price": 83.5,
+   "score": 65,
+   "rsi": 67.9,
    "vol_ratio": 2.03,
-   "target": 156.35,
-   "stoploss": 141.2,
+   "target": 90.48,
+   "stoploss": 80.01,
    "reasons": [
-    "Price 146.25 above 50-day average 133.87 (uptrend)",
-    "RSI 75.1: overbought, risk of pullback",
+    "Price 83.50 above 50-day average 78.18 (uptrend)",
     "MACD histogram positive and rising",
     "Volume 2.0x the 20-day average"
    ]
   },
   {
-   "ticker": "NHPC",
-   "price": 82.08,
-   "score": 50,
-   "rsi": 71.1,
-   "vol_ratio": 1.74,
-   "target": 88.34,
-   "stoploss": 78.95,
+   "ticker": "RECLTD",
+   "price": 305.15,
+   "score": 65,
+   "rsi": 57.3,
+   "vol_ratio": 0.72,
+   "target": 329.57,
+   "stoploss": 292.94,
    "reasons": [
-    "Price 82.08 above 50-day average 75.04 (uptrend)",
-    "RSI 71.1: overbought, risk of pullback",
-    "MACD histogram positive and rising",
-    "Volume 1.7x the 20-day average"
-   ]
-  },
-  {
-   "ticker": "RELIANCE",
-   "price": 1320.0,
-   "score": 45,
-   "rsi": 68.2,
-   "vol_ratio": 1.11,
-   "target": 1415.49,
-   "stoploss": 1272.26,
-   "reasons": [
-    "Price 1320.00 above 50-day average 1235.59 (uptrend)",
+    "Price 305.15 above 50-day average 301.17 (uptrend)",
+    "RSI 57.3: healthy momentum, not overbought",
     "MACD histogram positive and rising"
    ]
   },
   {
-   "ticker": "KOTAKBANK",
-   "price": 480.0,
-   "score": 45,
-   "rsi": 72.7,
-   "vol_ratio": 1.05,
-   "target": 511.94,
-   "stoploss": 464.03,
+   "ticker": "TCS",
+   "price": 2475.4,
+   "score": 60,
+   "rsi": 60.0,
+   "vol_ratio": 0.47,
+   "target": 2685.57,
+   "stoploss": 2370.31,
    "reasons": [
-    "Price 480.00 above 50-day average 430.32 (uptrend)",
+    "Price 2475.40 above 50-day average 2280.05 (uptrend)",
     "20-day average is above 50-day average",
-    "RSI 72.7: overbought, risk of pullback",
-    "MACD histogram positive and rising"
+    "RSI 60.0: healthy momentum, not overbought"
    ]
   },
   {
-   "ticker": "HINDUNILVR",
-   "price": 1998.4,
-   "score": 45,
-   "rsi": 68.1,
+   "ticker": "INFY",
+   "price": 1154.1,
+   "score": 60,
+   "rsi": 58.4,
    "vol_ratio": 0.6,
-   "target": 2133.12,
-   "stoploss": 1931.04,
+   "target": 1274.15,
+   "stoploss": 1094.08,
    "reasons": [
-    "Price 1998.40 above 50-day average 1912.93 (uptrend)",
-    "MACD histogram positive and rising"
+    "Price 1154.10 above 50-day average 1066.99 (uptrend)",
+    "20-day average is above 50-day average",
+    "RSI 58.4: healthy momentum, not overbought"
    ]
   },
   {
-   "ticker": "SUNPHARMA",
-   "price": 1860.0,
-   "score": 45,
-   "rsi": 67.0,
-   "vol_ratio": 1.13,
-   "target": 1985.81,
-   "stoploss": 1797.09,
+   "ticker": "ITC",
+   "price": 278.8,
+   "score": 60,
+   "rsi": 62.4,
+   "vol_ratio": 0.92,
+   "target": 298.43,
+   "stoploss": 268.99,
    "reasons": [
-    "Price 1860.00 above 50-day average 1824.09 (uptrend)",
-    "MACD histogram positive and rising"
-   ]
-  },
-  {
-   "ticker": "COALINDIA",
-   "price": 400.0,
-   "score": 40,
-   "rsi": 52.0,
-   "vol_ratio": 0.66,
-   "target": 427.78,
-   "stoploss": 386.11,
-   "reasons": [
-    "RSI 52.0: healthy momentum, not overbought",
-    "MACD histogram positive and rising"
-   ]
-  },
-  {
-   "ticker": "WIPRO",
-   "price": 198.0,
-   "score": 40,
-   "rsi": 68.2,
-   "vol_ratio": 0.67,
-   "target": 213.13,
-   "stoploss": 190.44,
-   "reasons": [
-    "Price 198.00 above 50-day average 175.11 (uptrend)",
-    "20-day average is above 50-day average"
+    "Price 278.80 above 50-day average 264.77 (uptrend)",
+    "20-day average is above 50-day average",
+    "RSI 62.4: healthy momentum, not overbought"
    ]
   },
   {
    "ticker": "HCLTECH",
-   "price": 1440.0,
-   "score": 40,
-   "rsi": 67.1,
-   "vol_ratio": 0.86,
-   "target": 1559.72,
-   "stoploss": 1380.14,
+   "price": 1407.0,
+   "score": 60,
+   "rsi": 58.4,
+   "vol_ratio": 0.79,
+   "target": 1528.0,
+   "stoploss": 1346.5,
    "reasons": [
-    "Price 1440.00 above 50-day average 1301.11 (uptrend)",
-    "20-day average is above 50-day average"
+    "Price 1407.00 above 50-day average 1303.51 (uptrend)",
+    "20-day average is above 50-day average",
+    "RSI 58.4: healthy momentum, not overbought"
    ]
   },
   {
-   "ticker": "SAIL",
-   "price": 171.6,
-   "score": 40,
-   "rsi": 51.8,
-   "vol_ratio": 1.14,
-   "target": 189.3,
-   "stoploss": 162.75,
+   "ticker": "ADANIPORTS",
+   "price": 1942.7,
+   "score": 60,
+   "rsi": 68.1,
+   "vol_ratio": 0.76,
+   "target": 2096.11,
+   "stoploss": 1865.99,
    "reasons": [
-    "RSI 51.8: healthy momentum, not overbought",
+    "Price 1942.70 above 50-day average 1768.27 (uptrend)",
+    "20-day average is above 50-day average",
     "MACD histogram positive and rising"
    ]
   },
   {
-   "ticker": "RECLTD",
-   "price": 296.65,
-   "score": 40,
-   "rsi": 50.8,
-   "vol_ratio": 0.78,
-   "target": 320.89,
-   "stoploss": 284.53,
+   "ticker": "HAL",
+   "price": 4999.0,
+   "score": 60,
+   "rsi": 57.7,
+   "vol_ratio": 1.09,
+   "target": 5386.53,
+   "stoploss": 4805.23,
    "reasons": [
-    "RSI 50.8: healthy momentum, not overbought",
+    "Price 4999.00 above 50-day average 4832.44 (uptrend)",
+    "20-day average is above 50-day average",
+    "RSI 57.7: healthy momentum, not overbought"
+   ]
+  },
+  {
+   "ticker": "LT",
+   "price": 4185.0,
+   "score": 50,
+   "rsi": 77.7,
+   "vol_ratio": 1.41,
+   "target": 4443.98,
+   "stoploss": 4055.51,
+   "reasons": [
+    "Price 4185.00 above 50-day average 3838.65 (uptrend)",
+    "RSI 77.7: overbought, risk of pullback",
+    "MACD histogram positive and rising",
+    "Volume 1.4x the 20-day average"
+   ]
+  },
+  {
+   "ticker": "SUNPHARMA",
+   "price": 1904.5,
+   "score": 50,
+   "rsi": 72.9,
+   "vol_ratio": 1.48,
+   "target": 2039.3,
+   "stoploss": 1837.1,
+   "reasons": [
+    "Price 1904.50 above 50-day average 1824.19 (uptrend)",
+    "RSI 72.9: overbought, risk of pullback",
+    "MACD histogram positive and rising",
+    "Volume 1.5x the 20-day average"
+   ]
+  },
+  {
+   "ticker": "IOC",
+   "price": 146.85,
+   "score": 50,
+   "rsi": 75.7,
+   "vol_ratio": 1.89,
+   "target": 156.97,
+   "stoploss": 141.79,
+   "reasons": [
+    "Price 146.85 above 50-day average 134.01 (uptrend)",
+    "RSI 75.7: overbought, risk of pullback",
+    "MACD histogram positive and rising",
+    "Volume 1.9x the 20-day average"
+   ]
+  },
+  {
+   "ticker": "GAIL",
+   "price": 188.0,
+   "score": 50,
+   "rsi": 73.0,
+   "vol_ratio": 1.29,
+   "target": 201.07,
+   "stoploss": 181.46,
+   "reasons": [
+    "Price 188.00 above 50-day average 172.21 (uptrend)",
+    "RSI 73.0: overbought, risk of pullback",
+    "MACD histogram positive and rising",
+    "Volume 1.3x the 20-day average"
+   ]
+  },
+  {
+   "ticker": "KOTAKBANK",
+   "price": 479.5,
+   "score": 45,
+   "rsi": 72.2,
+   "vol_ratio": 0.84,
+   "target": 510.99,
+   "stoploss": 463.75,
+   "reasons": [
+    "Price 479.50 above 50-day average 431.58 (uptrend)",
+    "20-day average is above 50-day average",
+    "RSI 72.2: overbought, risk of pullback",
     "MACD histogram positive and rising"
    ]
   },
   {
    "ticker": "BAJFINANCE",
-   "price": 1087.75,
-   "score": 30,
-   "rsi": 71.9,
-   "vol_ratio": 0.95,
-   "target": 1182.17,
-   "stoploss": 1040.54,
+   "price": 1064.85,
+   "score": 45,
+   "rsi": 65.8,
+   "vol_ratio": 0.96,
+   "target": 1158.13,
+   "stoploss": 1018.21,
    "reasons": [
-    "Price 1087.75 above 50-day average 997.28 (uptrend)",
-    "RSI 71.9: overbought, risk of pullback",
+    "Price 1064.85 above 50-day average 996.87 (uptrend)",
     "MACD histogram positive and rising"
    ]
   },
   {
-   "ticker": "GAIL",
-   "price": 185.79,
-   "score": 30,
-   "rsi": 71.0,
-   "vol_ratio": 0.87,
-   "target": 198.95,
-   "stoploss": 179.21,
+   "ticker": "BEL",
+   "price": 394.55,
+   "score": 45,
+   "rsi": 60.8,
+   "vol_ratio": 0.84,
+   "target": 421.77,
+   "stoploss": 380.94,
    "reasons": [
-    "Price 185.79 above 50-day average 171.93 (uptrend)",
-    "RSI 71.0: overbought, risk of pullback",
+    "Price 394.55 above 50-day average 388.14 (uptrend)",
+    "RSI 60.8: healthy momentum, not overbought"
+   ]
+  },
+  {
+   "ticker": "BHARTIARTL",
+   "price": 2072.1,
+   "score": 40,
+   "rsi": 68.4,
+   "vol_ratio": 0.59,
+   "target": 2212.35,
+   "stoploss": 2001.98,
+   "reasons": [
+    "Price 2072.10 above 50-day average 1871.55 (uptrend)",
+    "20-day average is above 50-day average"
+   ]
+  },
+  {
+   "ticker": "COALINDIA",
+   "price": 401.5,
+   "score": 40,
+   "rsi": 53.1,
+   "vol_ratio": 0.96,
+   "target": 428.36,
+   "stoploss": 388.07,
+   "reasons": [
+    "RSI 53.1: healthy momentum, not overbought",
     "MACD histogram positive and rising"
+   ]
+  },
+  {
+   "ticker": "IDFCFIRSTB",
+   "price": 77.87,
+   "score": 40,
+   "rsi": 53.1,
+   "vol_ratio": 0.85,
+   "target": 83.87,
+   "stoploss": 74.87,
+   "reasons": [
+    "RSI 53.1: healthy momentum, not overbought",
+    "MACD histogram positive and rising"
+   ]
+  },
+  {
+   "ticker": "MARUTI",
+   "price": 12928.0,
+   "score": 30,
+   "rsi": 73.4,
+   "vol_ratio": 1.08,
+   "target": 13789.93,
+   "stoploss": 12497.03,
+   "reasons": [
+    "Price 12928.00 above 50-day average 12027.32 (uptrend)",
+    "RSI 73.4: overbought, risk of pullback",
+    "MACD histogram positive and rising"
+   ]
+  },
+  {
+   "ticker": "M&M",
+   "price": 3290.6,
+   "score": 30,
+   "rsi": 75.7,
+   "vol_ratio": 0.8,
+   "target": 3521.09,
+   "stoploss": 3175.35,
+   "reasons": [
+    "Price 3290.60 above 50-day average 3002.80 (uptrend)",
+    "RSI 75.7: overbought, risk of pullback",
+    "MACD histogram positive and rising"
+   ]
+  },
+  {
+   "ticker": "TITAN",
+   "price": 5005.0,
+   "score": 30,
+   "rsi": 74.0,
+   "vol_ratio": 0.96,
+   "target": 5361.91,
+   "stoploss": 4826.55,
+   "reasons": [
+    "Price 5005.00 above 50-day average 4709.86 (uptrend)",
+    "RSI 74.0: overbought, risk of pullback",
+    "MACD histogram positive and rising"
+   ]
+  },
+  {
+   "ticker": "RELIANCE",
+   "price": 1324.4,
+   "score": 25,
+   "rsi": 68.8,
+   "vol_ratio": 0.94,
+   "target": 1418.36,
+   "stoploss": 1277.42,
+   "reasons": [
+    "Price 1324.40 above 50-day average 1236.12 (uptrend)"
+   ]
+  },
+  {
+   "ticker": "HINDUNILVR",
+   "price": 1990.3,
+   "score": 25,
+   "rsi": 66.1,
+   "vol_ratio": 0.85,
+   "target": 2121.07,
+   "stoploss": 1924.91,
+   "reasons": [
+    "Price 1990.30 above 50-day average 1912.32 (uptrend)"
+   ]
+  },
+  {
+   "ticker": "ULTRACEMCO",
+   "price": 12275.0,
+   "score": 25,
+   "rsi": 71.0,
+   "vol_ratio": 0.91,
+   "target": 13126.61,
+   "stoploss": 11849.2,
+   "reasons": [
+    "Price 12275.00 above 50-day average 11113.76 (uptrend)",
+    "20-day average is above 50-day average",
+    "RSI 71.0: overbought, risk of pullback"
+   ]
+  },
+  {
+   "ticker": "SAIL",
+   "price": 169.59,
+   "score": 20,
+   "rsi": 48.9,
+   "vol_ratio": 0.91,
+   "target": 187.29,
+   "stoploss": 160.74,
+   "reasons": [
+    "RSI 48.9: healthy momentum, not overbought"
    ]
   }
  ]
