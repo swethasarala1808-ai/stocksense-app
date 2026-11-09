@@ -1,5 +1,5 @@
 {
- "updated": "09 Nov 2026, 05:23 PM IST",
+ "updated": "09 Nov 2026, 06:46 PM IST",
  "picks": [
   {
    "ticker": "TATASTEEL",
@@ -421,6 +421,19 @@
    ]
   },
   {
+   "ticker": "WIPRO",
+   "price": 199.0,
+   "score": 40,
+   "rsi": 69.0,
+   "vol_ratio": 0.54,
+   "target": 213.97,
+   "stoploss": 191.52,
+   "reasons": [
+    "Price 199.00 above 50-day average 175.54 (uptrend)",
+    "20-day average is above 50-day average"
+   ]
+  },
+  {
    "ticker": "IDFCFIRSTB",
    "price": 77.87,
    "score": 40,
@@ -458,20 +471,6 @@
    "reasons": [
     "Price 3290.60 above 50-day average 3002.80 (uptrend)",
     "RSI 75.7: overbought, risk of pullback",
-    "MACD histogram positive and rising"
-   ]
-  },
-  {
-   "ticker": "TITAN",
-   "price": 5005.0,
-   "score": 30,
-   "rsi": 74.0,
-   "vol_ratio": 0.96,
-   "target": 5361.91,
-   "stoploss": 4826.55,
-   "reasons": [
-    "Price 5005.00 above 50-day average 4709.86 (uptrend)",
-    "RSI 74.0: overbought, risk of pullback",
     "MACD histogram positive and rising"
    ]
   },
