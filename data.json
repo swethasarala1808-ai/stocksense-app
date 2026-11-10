@@ -1,12 +1,12 @@
 {
- "updated": "09 Nov 2026, 06:46 PM IST",
+ "updated": "10 Nov 2026, 04:57 PM IST",
  "picks": [
   {
    "ticker": "TATASTEEL",
    "price": 184.85,
    "score": 85,
    "rsi": 61.4,
-   "vol_ratio": 2.23,
+   "vol_ratio": 2.24,
    "target": 200.45,
    "stoploss": 177.05,
    "reasons": [
@@ -186,7 +186,7 @@
    "price": 83.5,
    "score": 65,
    "rsi": 67.9,
-   "vol_ratio": 2.03,
+   "vol_ratio": 2.04,
    "target": 90.48,
    "stoploss": 80.01,
    "reasons": [
@@ -475,6 +475,20 @@
    ]
   },
   {
+   "ticker": "TITAN",
+   "price": 5005.0,
+   "score": 30,
+   "rsi": 74.0,
+   "vol_ratio": 0.96,
+   "target": 5361.91,
+   "stoploss": 4826.55,
+   "reasons": [
+    "Price 5005.00 above 50-day average 4709.86 (uptrend)",
+    "RSI 74.0: overbought, risk of pullback",
+    "MACD histogram positive and rising"
+   ]
+  },
+  {
    "ticker": "RELIANCE",
    "price": 1324.4,
    "score": 25,
@@ -496,20 +510,6 @@
    "stoploss": 1924.91,
    "reasons": [
     "Price 1990.30 above 50-day average 1912.32 (uptrend)"
-   ]
-  },
-  {
-   "ticker": "ULTRACEMCO",
-   "price": 12275.0,
-   "score": 25,
-   "rsi": 71.0,
-   "vol_ratio": 0.91,
-   "target": 13126.61,
-   "stoploss": 11849.2,
-   "reasons": [
-    "Price 12275.00 above 50-day average 11113.76 (uptrend)",
-    "20-day average is above 50-day average",
-    "RSI 71.0: overbought, risk of pullback"
    ]
   },
   {
