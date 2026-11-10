@@ -1,5 +1,5 @@
 {
- "updated": "10 Nov 2026, 04:57 PM IST",
+ "updated": "10 Nov 2026, 06:24 PM IST",
  "picks": [
   {
    "ticker": "TATASTEEL",
@@ -510,6 +510,20 @@
    "stoploss": 1924.91,
    "reasons": [
     "Price 1990.30 above 50-day average 1912.32 (uptrend)"
+   ]
+  },
+  {
+   "ticker": "ULTRACEMCO",
+   "price": 12275.0,
+   "score": 25,
+   "rsi": 71.0,
+   "vol_ratio": 0.91,
+   "target": 13126.61,
+   "stoploss": 11849.2,
+   "reasons": [
+    "Price 12275.00 above 50-day average 11113.76 (uptrend)",
+    "20-day average is above 50-day average",
+    "RSI 71.0: overbought, risk of pullback"
    ]
   },
   {
