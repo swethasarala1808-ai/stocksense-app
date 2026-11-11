@@ -1,5 +1,5 @@
 {
- "updated": "11 Nov 2026, 04:46 PM IST",
+ "updated": "11 Nov 2026, 05:34 PM IST",
  "picks": [
   {
    "ticker": "NTPC",
@@ -254,20 +254,6 @@
     "Price 1155.00 above 50-day average 1068.37 (uptrend)",
     "20-day average is above 50-day average",
     "RSI 58.5: healthy momentum, not overbought"
-   ]
-  },
-  {
-   "ticker": "ITC",
-   "price": 285.0,
-   "score": 60,
-   "rsi": 67.1,
-   "vol_ratio": 1.2,
-   "target": 304.79,
-   "stoploss": 275.11,
-   "reasons": [
-    "Price 285.00 above 50-day average 265.09 (uptrend)",
-    "20-day average is above 50-day average",
-    "MACD histogram positive and rising"
    ]
   },
   {
