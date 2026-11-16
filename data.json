@@ -1,5 +1,5 @@
 {
- "updated": "16 Nov 2026, 05:19 PM IST",
+ "updated": "16 Nov 2026, 06:34 PM IST",
  "picks": [
   {
    "ticker": "ITC",
@@ -339,6 +339,19 @@
    "stoploss": 181.0,
    "reasons": [
     "Price 187.00 above 50-day average 173.43 (uptrend)",
+    "20-day average is above 50-day average"
+   ]
+  },
+  {
+   "ticker": "CANBK",
+   "price": 132.4,
+   "score": 40,
+   "rsi": 66.5,
+   "vol_ratio": 0.68,
+   "target": 142.15,
+   "stoploss": 127.53,
+   "reasons": [
+    "Price 132.40 above 50-day average 122.24 (uptrend)",
     "20-day average is above 50-day average"
    ]
   },
