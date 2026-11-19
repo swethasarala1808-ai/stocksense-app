@@ -1,5 +1,5 @@
 {
- "updated": "19 Nov 2026, 05:26 PM IST",
+ "updated": "19 Nov 2026, 07:16 PM IST",
  "picks": [
   {
    "ticker": "IRFC",
@@ -318,19 +318,6 @@
    "stoploss": 1041.39,
    "reasons": [
     "Price 1091.90 above 50-day average 1070.12 (uptrend)",
-    "20-day average is above 50-day average"
-   ]
-  },
-  {
-   "ticker": "SUNPHARMA",
-   "price": 1900.0,
-   "score": 40,
-   "rsi": 67.5,
-   "vol_ratio": 0.84,
-   "target": 2025.67,
-   "stoploss": 1837.16,
-   "reasons": [
-    "Price 1900.00 above 50-day average 1817.84 (uptrend)",
     "20-day average is above 50-day average"
    ]
   },
