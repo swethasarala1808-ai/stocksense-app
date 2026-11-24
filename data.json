@@ -1,5 +1,5 @@
 {
- "updated": "23 Nov 2026, 08:44 PM IST",
+ "updated": "24 Nov 2026, 07:31 PM IST",
  "picks": [
   {
    "ticker": "TCS",
@@ -237,7 +237,7 @@
    "price": 222.85,
    "score": 60,
    "rsi": 49.8,
-   "vol_ratio": 0.92,
+   "vol_ratio": 0.93,
    "target": 234.17,
    "stoploss": 217.19,
    "reasons": [
@@ -485,7 +485,7 @@
    "price": 163.0,
    "score": 20,
    "rsi": 32.0,
-   "vol_ratio": 6.91,
+   "vol_ratio": 6.92,
    "target": 180.23,
    "stoploss": 154.39,
    "reasons": [
