@@ -1,5 +1,5 @@
 {
- "updated": "26 Nov 2026, 06:25 PM IST",
+ "updated": "26 Nov 2026, 07:48 PM IST",
  "picks": [
   {
    "ticker": "INFY",
@@ -286,6 +286,20 @@
     "Price 82.30 above 50-day average 78.51 (uptrend)",
     "20-day average is above 50-day average",
     "RSI 54.9: healthy momentum, not overbought"
+   ]
+  },
+  {
+   "ticker": "NHPC",
+   "price": 75.9,
+   "score": 60,
+   "rsi": 49.9,
+   "vol_ratio": 0.3,
+   "target": 81.54,
+   "stoploss": 73.08,
+   "reasons": [
+    "Price 75.90 above 50-day average 75.07 (uptrend)",
+    "20-day average is above 50-day average",
+    "RSI 49.9: healthy momentum, not overbought"
    ]
   },
   {
