@@ -1,5 +1,5 @@
 {
- "updated": "27 Nov 2026, 06:21 PM IST",
+ "updated": "27 Nov 2026, 07:43 PM IST",
  "picks": [
   {
    "ticker": "HCLTECH",
@@ -107,20 +107,6 @@
     "20-day average is above 50-day average",
     "RSI 49.2: healthy momentum, not overbought",
     "Volume 1.3x the 20-day average"
-   ]
-  },
-  {
-   "ticker": "INFY",
-   "price": 1151.3,
-   "score": 60,
-   "rsi": 55.6,
-   "vol_ratio": 0.91,
-   "target": 1259.55,
-   "stoploss": 1097.18,
-   "reasons": [
-    "Price 1151.30 above 50-day average 1080.22 (uptrend)",
-    "20-day average is above 50-day average",
-    "RSI 55.6: healthy momentum, not overbought"
    ]
   },
   {
